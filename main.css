@@ -15,28 +15,28 @@
 
 .hand {
   position: absolute;
-  top: 50%;
+  bottom: 50%;
   left: 50%;
-  transform-origin: left;
+  transform-origin: bottom;
 }
 
 #hour-hand {
-  width: 150px;
-  height: 10px;
+  width: 10px;
+  height: 150px;
   background-color: black;
   transform: rotate(90deg);
 }
 
 #min-hand {
-  width: 200px;
-  height: 10px;
+  width: 10px;
+  height: 200px;
   background-color: red;
   transform: rotate(45deg);
 }
 
 #sec-hand {
-  width: 200px;
-  height: 5px;
+  width: 5px;
+  height: 250px;
   background-color: green;
   transform: rotate(5deg);
 }
