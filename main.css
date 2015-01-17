@@ -1,0 +1,42 @@
+.clock-container {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.clock-face {
+  background-color: lightgray;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left;
+}
+
+#hour-hand {
+  width: 150px;
+  height: 10px;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+#min-hand {
+  width: 200px;
+  height: 10px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+#sec-hand {
+  width: 200px;
+  height: 5px;
+  background-color: green;
+  transform: rotate(5deg);
+}
